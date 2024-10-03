@@ -2,6 +2,14 @@
 
 public class Progam
 {
+    static void Demo4()
+    {
+        string nome = "Carlos";
+
+       TrocarNome(nome, "Vitor");
+
+       WriteLine($"O novo nome é {nome}");
+    }
     static void Demo3()
     {
         StructPessoa p1 = new StructPessoa()
@@ -62,12 +70,20 @@ public class Progam
     {
         nome = nomeNovo;
     }
+
+    static void MudarParaImpar(int[] pares)
+    {
+        for (int i = 0; i < pares.Length; i++)
+        {
+            pares[i] = pares[i] + 1;
+        }
+    }
     public static void Main()
     {
-       string nome = "Carlos";
+       int[] pares = new int[]{0,2,4,6,8};
 
-       TrocarNome(nome, "Vitor");
+       MudarParaImpar(pares);
 
-       WriteLine($"O novo nome é {nome}");
+       WriteLine($"Os impares {string.Join(",", pares)}");
     }
 }
