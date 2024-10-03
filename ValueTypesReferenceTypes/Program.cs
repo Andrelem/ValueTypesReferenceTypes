@@ -2,6 +2,40 @@
 
 public class Progam
 {
+    static void Demo3()
+    {
+        StructPessoa p1 = new StructPessoa()
+        {
+            Documento = "1234",
+            Idade = 30,
+            Nome = "Ricardo"
+        };
+        
+        var p2 = p1;
+
+        p1 = TrocarNome(p1, "Mario");
+
+        WriteLine($@"
+         Nome do p1 {p1.Nome}
+         nome do p2 {p2.Nome}
+        ");
+    }
+    static void Demo2()
+    {
+        Pessoa p1 =  new Pessoa();
+        p1.Nome = "Ricardo";
+        p1.Idade = 30;
+        p1.Documento = "12345";
+
+        Pessoa p2 = p1.Clone();
+        
+        TrocarNome(p1,"Paulo");
+
+        WriteLine($@"
+        O nome de p1 é: {p1.Nome}
+        o nome de p2 é: {p2.Nome}
+        ");
+    }
     static void Demo1()
     {
         int a = 52;
@@ -18,25 +52,22 @@ public class Progam
         p1.Nome = nomeNovo;
     }
 
+    static StructPessoa TrocarNome(StructPessoa p1 ,string nomeNovo)
+    {
+        p1.Nome = nomeNovo;
+        return p1;
+    }
+
+    static void TrocarNome(string nome,string nomeNovo)
+    {
+        nome = nomeNovo;
+    }
     public static void Main()
     {
-        
-        Pessoa p1 =  new Pessoa();
-        p1.Nome = "Ricardo";
-        p1.Idade = 30;
-        p1.Documento = "12345";
+       string nome = "Carlos";
 
-        Pessoa p2 = new Pessoa();
-        p2.Documento = p1.Documento;
-        p2.Nome = p1.Nome;
-        p2.Idade = p1.Idade;
-        
-        TrocarNome(p1,"Paulo");
+       TrocarNome(nome, "Vitor");
 
-        WriteLine($@"
-        O nome de p1 é: {p1.Nome}
-        o nome de p2 é: {p2.Nome}
-        ");
-    
+       WriteLine($"O novo nome é {nome}");
     }
 }
