@@ -1,0 +1,15 @@
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\bin\Debug\net8.0\ValueTypesReferenceTypes.exe
+C:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\bin\Debug\net8.0\ValueTypesReferenceTypes.deps.json
+C:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\bin\Debug\net8.0\ValueTypesReferenceTypes.runtimeconfig.json
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\bin\Debug\net8.0\ValueTypesReferenceTypes.dll
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\bin\Debug\net8.0\ValueTypesReferenceTypes.pdb
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.AssemblyInfoInputs.cache
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.AssemblyInfo.cs
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.csproj.CoreCompileInputs.cache
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.sourcelink.json
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.dll
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\refint\ValueTypesReferenceTypes.dll
+c:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.pdb
+C:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ValueTypesReferenceTypes.genruntimeconfig.cache
+C:\Users\Andre\Documents\Csharp\ValueTypesReferenceTypes\ValueTypesReferenceTypes\obj\Debug\net8.0\ref\ValueTypesReferenceTypes.dll
