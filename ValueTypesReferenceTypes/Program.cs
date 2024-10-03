@@ -20,13 +20,23 @@ public class Progam
 
     public static void Main()
     {
+        
         Pessoa p1 =  new Pessoa();
         p1.Nome = "Ricardo";
         p1.Idade = 30;
         p1.Documento = "12345";
 
+        Pessoa p2 = new Pessoa();
+        p2.Documento = p1.Documento;
+        p2.Nome = p1.Nome;
+        p2.Idade = p1.Idade;
+        
         TrocarNome(p1,"Paulo");
 
-        WriteLine($"Seu novo nome é: {p1.Nome}");
+        WriteLine($@"
+        O nome de p1 é: {p1.Nome}
+        o nome de p2 é: {p2.Nome}
+        ");
+    
     }
 }
